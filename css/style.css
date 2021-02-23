@@ -1,0 +1,372 @@
+﻿html {
+  background-color:#AB2626;
+  }
+  .lable{
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size:3.5vw;
+  line-height: 0px;
+  color: #15386B;
+  }
+  .skills{
+  display: flex;
+  flex-direction: column;
+  }
+  .canvas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  }
+  .chart
+  {
+  width: 100%;
+  height: 100%;
+  }
+  /*Добавление обводки окружности, убераем заливку и добавление цвета для секций*/
+  .unit {
+  fill: none;
+  stroke-width: 10;
+  }
+  
+  .unit:nth-child(1) {
+  stroke-dasharray: 15 100;
+  stroke: #86cfa3;
+  }
+  
+  .unit:nth-child(2) {
+  stroke: #a2c6e0;
+  stroke-dasharray: 30 100;
+  stroke-dashoffset: -15;
+  }
+  
+  .unit:nth-child(3) {
+  stroke: #ce1c92;
+  stroke-dasharray: 15 100;
+  stroke-dashoffset: -45;
+  }
+  .unit:nth-child(4) {
+  stroke: #15386B;
+  stroke-dasharray: 20 100;
+  stroke-dashoffset: -60;
+  }
+  .unit:nth-child(5) {
+  stroke-dasharray: 20 100;
+  stroke-dashoffset: -80;
+  stroke: #AB2626;
+  }
+  .unitt {
+  fill: none;
+  stroke-width: 10;
+  }
+  
+  .unitt:nth-child(1) {
+  stroke-dasharray: 25 100;
+  stroke: #86cfa3;
+  }
+  
+  .unitt:nth-child(2) {
+  stroke: #a2c6e0;
+  stroke-dasharray: 25 100;
+  stroke-dashoffset: -25;
+  }
+  
+  .unitt:nth-child(3) {
+  stroke: #ce1c92;
+  stroke-dasharray: 15 100;
+  stroke-dashoffset: -50;
+  }
+  .unitt:nth-child(4) {
+  stroke: #15386B;
+  stroke-dasharray: 20 100;
+  stroke-dashoffset: -65;
+  }
+  .unitt:nth-child(5) {
+  stroke-dasharray: 15 100;
+  stroke-dashoffset: -85;
+  stroke: #AB2626;
+  }
+  
+  .legend {
+  max-width: 250px;
+  margin-left: -10px;
+  }
+  
+  .title {
+  font-family: "Verdana", sans-serif;
+  font-size:1.5vw;
+  line-height: 21px;
+  color: #591d48;
+  }
+  
+  .caption-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+  
+  .caption-item {
+  position: relative;
+  
+  margin: 20px 0;
+  padding-left: 30px;
+  
+  font-family: "Verdana", sans-serif;
+  font-size: 1.3vw;
+  line-height: 18px;
+  color: #591d48;
+  cursor: pointer;
+  }
+  
+  .caption-item:hover {
+  opacity: 0.8;
+  }
+  .caption-item::before {
+  content: "";
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 20px;
+  height: 20px;
+  
+  border-radius: 8px;
+  }
+  
+  .caption-item:nth-child(1)::before {
+  background-color: #86cfa3;
+  }
+  
+  .caption-item:nth-child(2)::before {
+  background-color: #a2c6e0;
+  }
+  
+  .caption-item:nth-child(3)::before {
+  background-color: #ce1c92;
+  }
+  .caption-item:nth-child(4)::before {
+  background-color: #15386B;
+  }
+  
+  .caption-item:nth-child(5)::before {
+  background-color: #AB2626;
+  }
+  .container
+  {
+  width: 80%;
+  margin: auto;
+  background-color: #EDA2A2;
+  display: flex;
+  }
+  
+  .my_foto{
+  width: 250px;
+  height: 300px;
+  background-image: url(image/my_foto.jpg);
+  background-size: cover;
+  flex-shrink:0;
+  }
+  .my_name{
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size:3.5vw;
+  line-height: 73px;
+  color: #AB2626;
+  margin-bottom: 25px;
+  }
+  .address{
+  display:flex;
+  align-items: center;
+  }
+  .image_home{
+  width: 65px;
+  height: 65px;
+  }
+  .address_word{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size:1.8vw;
+  line-height: 29px;
+  color: #9C2C2C;
+  }
+  .mail{
+  display:flex;
+  align-items: center;
+  }
+  .image_mail
+  {
+  width: 50px;
+  height: 50px;
+  }
+  .mail_word{
+  margin-left: 20px;
+  font-family: Montserrat;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size:1.8vw;
+  line-height: 29px;
+  color: #9C2C2C;
+  margin-right: 50px;
+  }
+  
+  .image_phone {
+  width: 50px;
+  height: 50px;
+  align-self:start;
+  }
+  .number_phone
+  {
+  margin-left: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size:1.8vw;
+  line-height: 29px;
+  color: #9C2C2C;
+  }
+  .my_personal_data{
+  display: flex;
+  flex-direction: column;
+  }
+  .first_line{
+  display: flex;
+  }
+  .phone{
+  
+  align-items: center;
+  display: flex;
+  }
+  .image_instagram{
+  width: 20px;
+  height: 20px;
+  margin-right: 50px;
+  align-self:start;
+  }
+  .link_instagram{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size:1.8vw;
+   
+  line-height: 29px;
+  color: #9C2C2C;
+  }
+  .instagram{
+  
+  display:flex;
+  align-items: center;
+  
+  }
+  .second_line{
+  display: flex;
+  margin-bottom: 4%;
+  
+  }
+  
+  @media screen and (max-width: 1340px)
+  {
+  .address_word{
+  margin-left: 8px;
+  }
+  }
+  @media screen and (max-width: 1100px)
+  {
+  .address_word{
+  margin-left: 20px;
+  }
+  }
+  @media screen and (max-width: 1041px)
+  {
+  
+  .container{
+  flex-direction: column;
+  }
+  .my_foto {
+  
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin:auto;
+  margin-bottom: -40px;
+  
+  }
+  .first_line{
+  display: flex;
+  flex-direction: column;
+  }
+  .second_line{
+  display: flex;
+  flex-direction: column;
+  }
+  .my_name{
+  
+  font-size:5vw;
+  
+  margin-bottom: -10px;
+  }
+  .address_word{
+  font-size:3vw;
+  margin-left: 4px;
+  }
+  .mail_word{
+  font-size:3vw;
+  
+  }
+  .number_phone
+  {
+  font-size:3vw;
+  }
+  .link_instagram{
+  
+  font-size:3vw;
+  
+  }
+  .lable{
+  
+  font-size:4.5vw;
+  
+  }
+  .title{
+  font-size:2.4vw;
+  }
+  .caption-item {
+  
+  font-size: 2.2vw;
+  
+  }
+  }
+  
+  @media screen and (max-width: 625px)
+  {
+  
+  .lable{
+  font-size:4.5vw;
+  }
+  .address_word{
+  font-size:3.5vw;
+  margin-left: 16px;
+  }
+  .mail_word{
+  font-size:3.5vw;
+  }
+  .number_phone
+  {
+  font-size:3.5vw;
+  margin-bottom: -10px;
+  }
+  .link_instagram{
+  font-size:3.5vw;
+  }
+  .title{
+  font-size:2.7vw;
+  margin-bottom: -10px;
+  }
+  .caption-item {
+  
+  font-size: 2.5vw;
+  
+  }
+  }
